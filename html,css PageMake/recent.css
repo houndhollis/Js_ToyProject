@@ -1,0 +1,49 @@
+.recent-order-area{
+    display: flex;
+    margin-top: 16px;
+    padding:18px 0;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.recent-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-right: 1px solid beige;
+    line-height: 1.42;
+    font-size: 12px;
+    font-weight: 700;
+    color:#333
+}
+.ico-clock{
+    margin-bottom: 4px;
+    width: 14px;
+}
+
+.recent-menu-list{
+    display: flex;
+    list-style: none;
+}
+.scroll-x{
+    overflow-x:auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling:touch ;
+    scrollbar-width: none;
+    }
+    .scroll-x::-webkit-scrollbar{
+        display: none;
+    }
+
+.recent-menu-item{
+    box-sizing: content-box;
+    padding-left: 16px;
+    width: 80px;
+    text-align: center;
+}
+.is-ordered{
+    padding-right: 16px;
+    border-right: 1px solid beige;
+}
